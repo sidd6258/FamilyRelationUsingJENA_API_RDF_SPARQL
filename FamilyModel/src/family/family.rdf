@@ -1,0 +1,154 @@
+<rdf:RDF
+    xmlns:rela="http://purl.org/vocab/relationship/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <rdf:Description rdf:about="http://family/Dwarkesh">
+    <rela:parentOf>
+      <rdf:Description rdf:about="http://family/Satendra">
+        <rela:siblingOf>
+          <rdf:Description rdf:about="http://family/Sandeep">
+            <rela:siblingOf rdf:resource="http://family/Satendra"/>
+            <rela:siblingOf>
+              <rdf:Description rdf:about="http://family/Shailendra">
+                <rela:siblingOf rdf:resource="http://family/Satendra"/>
+                <rela:siblingOf rdf:resource="http://family/Sandeep"/>
+                <rela:siblingOf>
+                  <rdf:Description rdf:about="http://family/Santosh">
+                    <rela:siblingOf rdf:resource="http://family/Satendra"/>
+                    <rela:siblingOf rdf:resource="http://family/Shailendra"/>
+                    <rela:siblingOf rdf:resource="http://family/Sandeep"/>
+                    <rela:parentOf>
+                      <rdf:Description rdf:about="http://family/Pragya">
+                        <rela:siblingOf>
+                          <rdf:Description rdf:about="http://family/Sudarshan">
+                            <rela:siblingOf rdf:resource="http://family/Pragya"/>
+                            <rela:siblingOf>
+                              <rdf:Description rdf:about="http://family/Priyadarshan">
+                                <rela:siblingOf rdf:resource="http://family/Pragya"/>
+                                <rela:siblingOf rdf:resource="http://family/Sudarshan"/>
+                                <rela:childOf>
+                                  <rdf:Description rdf:about="http://family/Usha">
+                                    <rela:parentOf rdf:resource="http://family/Pragya"/>
+                                    <rela:parentOf rdf:resource="http://family/Sudarshan"/>
+                                    <rela:parentOf rdf:resource="http://family/Priyadarshan"/>
+                                  </rdf:Description>
+                                </rela:childOf>
+                                <rela:childOf rdf:resource="http://family/Santosh"/>
+                              </rdf:Description>
+                            </rela:siblingOf>
+                            <rela:childOf rdf:resource="http://family/Usha"/>
+                            <rela:childOf rdf:resource="http://family/Santosh"/>
+                          </rdf:Description>
+                        </rela:siblingOf>
+                        <rela:siblingOf rdf:resource="http://family/Priyadarshan"/>
+                        <rela:childOf rdf:resource="http://family/Usha"/>
+                        <rela:childOf rdf:resource="http://family/Santosh"/>
+                      </rdf:Description>
+                    </rela:parentOf>
+                    <rela:parentOf rdf:resource="http://family/Sudarshan"/>
+                    <rela:parentOf rdf:resource="http://family/Priyadarshan"/>
+                    <rela:childOf>
+                      <rdf:Description rdf:about="http://family/Shakuntala">
+                        <rela:parentOf rdf:resource="http://family/Satendra"/>
+                        <rela:parentOf rdf:resource="http://family/Shailendra"/>
+                        <rela:parentOf rdf:resource="http://family/Santosh"/>
+                        <rela:parentOf rdf:resource="http://family/Sandeep"/>
+                      </rdf:Description>
+                    </rela:childOf>
+                    <rela:childOf rdf:resource="http://family/Dwarkesh"/>
+                    <rela:spouseOf rdf:resource="http://family/Usha"/>
+                  </rdf:Description>
+                </rela:siblingOf>
+                <rela:parentOf>
+                  <rdf:Description rdf:about="http://family/Harsh">
+                    <rela:childOf>
+                      <rdf:Description rdf:about="http://family/Rajni">
+                        <rela:parentOf rdf:resource="http://family/Harsh"/>
+                      </rdf:Description>
+                    </rela:childOf>
+                    <rela:childOf rdf:resource="http://family/Shailendra"/>
+                  </rdf:Description>
+                </rela:parentOf>
+                <rela:childOf rdf:resource="http://family/Shakuntala"/>
+                <rela:childOf rdf:resource="http://family/Dwarkesh"/>
+                <rela:spouseOf rdf:resource="http://family/Rajni"/>
+              </rdf:Description>
+            </rela:siblingOf>
+            <rela:siblingOf rdf:resource="http://family/Santosh"/>
+            <rela:parentOf>
+              <rdf:Description rdf:about="http://family/Dhvanit">
+                <rela:siblingOf>
+                  <rdf:Description rdf:about="http://family/Siddharth">
+                    <rela:siblingOf rdf:resource="http://family/Dhvanit"/>
+                    <rela:childOf rdf:resource="http://family/Sandeep"/>
+                    <rela:childOf>
+                      <rdf:Description rdf:about="http://family/Rekha">
+                        <rela:parentOf rdf:resource="http://family/Dhvanit"/>
+                        <rela:parentOf rdf:resource="http://family/Siddharth"/>
+                      </rdf:Description>
+                    </rela:childOf>
+                  </rdf:Description>
+                </rela:siblingOf>
+                <rela:parentOf>
+                  <rdf:Description rdf:about="http://family/Pihu">
+                    <rela:childOf>
+                      <rdf:Description rdf:about="http://family/Kanchan">
+                        <rela:parentOf rdf:resource="http://family/Pihu"/>
+                      </rdf:Description>
+                    </rela:childOf>
+                    <rela:childOf rdf:resource="http://family/Dhvanit"/>
+                  </rdf:Description>
+                </rela:parentOf>
+                <rela:childOf rdf:resource="http://family/Sandeep"/>
+                <rela:childOf rdf:resource="http://family/Rekha"/>
+                <rela:spouseOf rdf:resource="http://family/Kanchan"/>
+              </rdf:Description>
+            </rela:parentOf>
+            <rela:parentOf rdf:resource="http://family/Siddharth"/>
+            <rela:childOf rdf:resource="http://family/Shakuntala"/>
+            <rela:childOf rdf:resource="http://family/Dwarkesh"/>
+            <rela:spouseOf rdf:resource="http://family/Rekha"/>
+          </rdf:Description>
+        </rela:siblingOf>
+        <rela:siblingOf rdf:resource="http://family/Santosh"/>
+        <rela:siblingOf rdf:resource="http://family/Shailendra"/>
+        <rela:parentOf>
+          <rdf:Description rdf:about="http://family/Vardhan">
+            <rela:siblingOf>
+              <rdf:Description rdf:about="http://family/Darshan">
+                <rela:siblingOf>
+                  <rdf:Description rdf:about="http://family/Priyam">
+                    <rela:siblingOf rdf:resource="http://family/Vardhan"/>
+                    <rela:siblingOf rdf:resource="http://family/Darshan"/>
+                    <rela:childOf>
+                      <rdf:Description rdf:about="http://family/Vandana">
+                        <rela:parentOf rdf:resource="http://family/Vardhan"/>
+                        <rela:parentOf rdf:resource="http://family/Darshan"/>
+                        <rela:parentOf rdf:resource="http://family/Priyam"/>
+                      </rdf:Description>
+                    </rela:childOf>
+                    <rela:childOf rdf:resource="http://family/Satendra"/>
+                  </rdf:Description>
+                </rela:siblingOf>
+                <rela:siblingOf rdf:resource="http://family/Vardhan"/>
+                <rela:childOf rdf:resource="http://family/Vandana"/>
+                <rela:childOf rdf:resource="http://family/Satendra"/>
+              </rdf:Description>
+            </rela:siblingOf>
+            <rela:siblingOf rdf:resource="http://family/Priyam"/>
+            <rela:childOf rdf:resource="http://family/Vandana"/>
+            <rela:childOf rdf:resource="http://family/Satendra"/>
+          </rdf:Description>
+        </rela:parentOf>
+        <rela:parentOf rdf:resource="http://family/Darshan"/>
+        <rela:parentOf rdf:resource="http://family/Priyam"/>
+        <rela:childOf rdf:resource="http://family/Shakuntala"/>
+        <rela:childOf rdf:resource="http://family/Dwarkesh"/>
+        <rela:spouseOf rdf:resource="http://family/Vandana"/>
+      </rdf:Description>
+    </rela:parentOf>
+    <rela:parentOf rdf:resource="http://family/Shailendra"/>
+    <rela:parentOf rdf:resource="http://family/Santosh"/>
+    <rela:parentOf rdf:resource="http://family/Sandeep"/>
+    <rela:spouseOf rdf:resource="http://family/Shakuntala"/>
+  </rdf:Description>
+</rdf:RDF>
